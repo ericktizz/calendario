@@ -1,0 +1,88 @@
+body {
+  width: 98vw;
+  height: 100vh;
+}
+
+div.first-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.header-right input {
+  width: 150px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+div.header-izquierda {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+div.header-center {
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  padding: 5px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+div.header-center > p {
+  border-left: 1px solid black;
+}
+
+div.second-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.second-header input {
+  font-size: 10px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+div.third-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #dcdcdc;
+  padding: 10px;
+}
+
+div.third-header > p {
+  font-size: 10px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+div.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+div.box > p {
+  border: 1px solid;
+  /* border-bottom: 1px solid gray; */
+  width: 170px;
+  height: 150px;
+  font-size: 10px;
+  padding: 10px;
+  font-family: sans-serif;
+  font-style: italic;
+}
